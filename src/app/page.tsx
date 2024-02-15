@@ -3,8 +3,8 @@ import styles from './page.module.css';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>oh ya guten tag</div>
-      <div className={styles.description}>bok tena pejsi ne zezaj</div>
+      <div className={styles.description}>KAKAV JE PLAN? </div>
+      <div className={styles.description}>KVAKVAV? </div>
     </main>
   );
 }
