@@ -1,10 +1,13 @@
+import React from 'react';
+import Movies from '../movies/page';
+
 import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>KAKAV JE PLAN? </div>
-      <div className={styles.description}>KVAKVAV?? </div>
+    <main className={styles.wrapper}>
+      <div className={styles.description}>Movies watched: </div>
+      <Movies />
     </main>
   );
 }
